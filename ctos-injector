@@ -69,11 +69,11 @@ function injector
 end
 
 function init
-curl -s -L -o ctpkg https://cdngit.ruzhtw.top/ctpkg/ctpkg
+curl -s -L -o ctpkg https://cdngit.ruzhtw.top/pkghub/ctpkg
 fish ctpkg install
 rm ctpkg
 end
-echo Build_Time_UTC=2022-01-08_13:58:39
+echo Build_Time_UTC=2022-01-08_14:06:02
 set prefix [CenterLinux-Injector]
 switch $argv[1]
     case injector
