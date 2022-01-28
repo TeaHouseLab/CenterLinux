@@ -59,11 +59,11 @@ function injector
             case 0
                 ctpkg grab upg && ctpkg grab center-id ctcontainer ctpkg neofetch progynosh ctutils
             case 1
-                ctpkg grab upg && ctpkg grab center-plymouth-theme center-grub-theme enter-id ctcontainer ctpkg neofetch progynosh ctutils
+                ctpkg grab upg && ctpkg grab center-plymouth-theme center-grub-theme center-id ctcontainer ctpkg neofetch progynosh ctutils
             case 2
-                ctpkg grab upg && ctpkg grab center-id-desktop papirus-icon-theme center-kde-theme center-plymouth-theme center-grub-theme enter-id ctcontainer ctpkg neofetch progynosh ctutils
+                ctpkg grab upg && ctpkg grab center-id-desktop papirus-icon-theme center-kde-theme center-plymouth-theme center-grub-theme center-id ctcontainer ctpkg neofetch progynosh ctutils
             case 3
-                ctpkg grab upg && ctpkg grab center-id-desktop center-plymouth-theme center-grub-theme enter-id ctcontainer ctpkg neofetch progynosh ctutils center-gnome-theme 
+                ctpkg grab upg && ctpkg grab center-id-desktop center-plymouth-theme center-grub-theme center-id ctcontainer ctpkg neofetch progynosh ctutils center-gnome-theme 
             case "*"
                 logger 4 "Unexpect Input,abort"
                 exit
@@ -76,7 +76,7 @@ curl -s -L -o ctpkg https://cdngit.ruzhtw.top/pkghub/ctpkg
 fish ctpkg install
 rm ctpkg
 end
-echo Build_Time_UTC=2022-01-27_10:24:46
+echo Build_Time_UTC=2022-01-28_03:31:53
 set prefix [CenterLinux-Injector]
 switch $argv[1]
     case injector

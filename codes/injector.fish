@@ -17,11 +17,11 @@ function injector
             case 0
                 ctpkg grab upg && ctpkg grab center-id ctcontainer ctpkg neofetch progynosh ctutils
             case 1
-                ctpkg grab upg && ctpkg grab center-plymouth-theme center-grub-theme enter-id ctcontainer ctpkg neofetch progynosh ctutils
+                ctpkg grab upg && ctpkg grab center-plymouth-theme center-grub-theme center-id ctcontainer ctpkg neofetch progynosh ctutils
             case 2
-                ctpkg grab upg && ctpkg grab center-id-desktop papirus-icon-theme center-kde-theme center-plymouth-theme center-grub-theme enter-id ctcontainer ctpkg neofetch progynosh ctutils
+                ctpkg grab upg && ctpkg grab center-id-desktop papirus-icon-theme center-kde-theme center-plymouth-theme center-grub-theme center-id ctcontainer ctpkg neofetch progynosh ctutils
             case 3
-                ctpkg grab upg && ctpkg grab center-id-desktop center-plymouth-theme center-grub-theme enter-id ctcontainer ctpkg neofetch progynosh ctutils center-gnome-theme 
+                ctpkg grab upg && ctpkg grab center-id-desktop center-plymouth-theme center-grub-theme center-id ctcontainer ctpkg neofetch progynosh ctutils center-gnome-theme 
             case "*"
                 logger 4 "Unexpect Input,abort"
                 exit
