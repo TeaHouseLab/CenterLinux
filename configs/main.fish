@@ -3,7 +3,7 @@ switch $argv[1]
     case injector
         injector
     case v
-        logger 0 "BlackDeath@build1"
+        logger 0 "Corleone@build1"
     case h help "*"
         logger 0 "Use ./app injector for cli guide-elf"
 end
